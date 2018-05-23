@@ -1,0 +1,101 @@
+// this is stlye for  giaodien
+		body{ margin: 0; position: relative; }
+		
+		h1,h2,h3,h4,h5 { text-align: center; }
+
+		.header{
+			z-index:9999;
+			position: fixed;
+			height: 70px;
+			width: 100%;
+		}
+ 		.sidebar{
+ 			width: 250px;
+ 			top: 70px;
+ 			position: fixed;
+ 			height: -webkit-fill-available;
+ 			border-right: 1px solid #e7e7e7;
+ 		}
+ 		.main-content{
+ 			margin-left: 250px;
+ 			position: relative;
+ 			top: 70px;
+ 			padding: 20px;		
+ 		}
+ 		.nav-link{
+ 			text-decoration: none; 
+ 			width: 80%; 
+ 			background: #c2c2c2; 
+ 		}
+ 		.icon{
+ 			margin: 0 10px;
+ 			background: #fff;
+ 			border-radius: 50%;
+ 			font-size: 28px;
+ 			padding: 10px;
+ 		}
+ 		.admin-text{
+ 			padding-right: 20px !important;
+ 			font-size: 24px;
+ 		}
+ 		/*.admin-text:hover { text-decoration: none; }*/
+ 		.menu-list{.
+ 			margin: 0; 
+ 			padding: 0;
+ 		}
+ 		.nav-item{ 
+ 			width: 80%; 
+ 			background: #fcf5c1; 
+ 			padding: 10px;
+ 			margin: 15px;
+ 			list-style-type:none;
+ 		}
+ 		.form{
+ 			margin: 50px auto; 
+ 			width: 500px; 
+ 			padding: 30px; 
+ 			border: 1px solid #000; 
+ 			background: #c2c2c2;
+ 			font-size: 24px;
+ 		}
+ 		.contact{
+ 			position: absolute;
+ 			bottom: 100px;
+ 			text-align: left;
+ 			font-size: 13px; 
+ 			margin-left: 10px; 
+ 			margin-top: 40px;
+ 		}
+ 		.input-group-addon { 
+ 			padding: 0 12px !important; 
+ 			background: #cce8eb !important; }
+ 		.add { 
+ 			padding: 5px; 
+ 			border-radius: 5px; 
+ 			background: #cce8eb; 
+ 		}
+ 		.table-content {
+ 			padding: 10px;
+ 			margin: 20px auto;
+ 		}
+ 		
+/*style for chitiet.php*/
+ 		#popup {
+			display: none;
+		  background-color: #ffffff;
+		  border-style: solid;
+		  height: auto;
+		  width: 400px;
+		}
+		.order-info{
+			padding: 10px;
+			margin: 20px;
+		}
+		.chitiet{
+			display: block;
+		}
+		.input-chitiet{
+			position: absolute;
+			left: 160px;
+			
+		}
